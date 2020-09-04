@@ -1,29 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="102" started-at="2020-09-02T12:41:44 EDT" finished-at="2020-09-02T12:41:44 EDT">
+  <suite name="Default suite" duration-ms="44" started-at="2020-09-04T13:14:44 EDT" finished-at="2020-09-04T13:14:44 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="102" started-at="2020-09-02T12:41:44 EDT" finished-at="2020-09-02T12:41:44 EDT">
-      <class name="com.syntax.class1.TestNGIntro">
-        <test-method status="PASS" signature="testFour()[pri:0, instance:com.syntax.class1.TestNGIntro@7b49cea0]" name="testFour" duration-ms="15" started-at="2020-09-02T12:41:44 EDT" finished-at="2020-09-02T12:41:44 EDT">
+    <test name="Default test" duration-ms="44" started-at="2020-09-04T13:14:44 EDT" finished-at="2020-09-04T13:14:44 EDT">
+      <class name="com.syntax.class2.AllAnnotations">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.syntax.class2.AllAnnotations@2758fe70]" name="beforeSuite" is-config="true" duration-ms="12" started-at="2020-09-04T13:14:44 EDT" finished-at="2020-09-04T13:14:44 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFour -->
-        <test-method status="PASS" signature="testOne()[pri:0, instance:com.syntax.class1.TestNGIntro@7b49cea0]" name="testOne" duration-ms="12" started-at="2020-09-02T12:41:44 EDT" finished-at="2020-09-02T12:41:44 EDT">
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.syntax.class2.AllAnnotations@2758fe70]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-09-04T13:14:44 EDT" finished-at="2020-09-04T13:14:44 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOne -->
-        <test-method status="PASS" signature="testThree()[pri:0, instance:com.syntax.class1.TestNGIntro@7b49cea0]" name="testThree" duration-ms="4" started-at="2020-09-02T12:41:44 EDT" finished-at="2020-09-02T12:41:44 EDT">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.syntax.class2.AllAnnotations@2758fe70]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-09-04T13:14:44 EDT" finished-at="2020-09-04T13:14:44 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testThree -->
-        <test-method status="PASS" signature="testTwo()[pri:0, instance:com.syntax.class1.TestNGIntro@7b49cea0]" name="testTwo" duration-ms="6" started-at="2020-09-02T12:41:44 EDT" finished-at="2020-09-02T12:41:44 EDT">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.syntax.class2.AllAnnotations@2758fe70]" name="before" is-config="true" duration-ms="1" started-at="2020-09-04T13:14:44 EDT" finished-at="2020-09-04T13:14:44 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTwo -->
-      </class> <!-- com.syntax.class1.TestNGIntro -->
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:com.syntax.class2.AllAnnotations@2758fe70]" name="testMethod" duration-ms="5" started-at="2020-09-04T13:14:44 EDT" finished-at="2020-09-04T13:14:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.syntax.class2.AllAnnotations@2758fe70]" name="after" is-config="true" duration-ms="1" started-at="2020-09-04T13:14:44 EDT" finished-at="2020-09-04T13:14:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.syntax.class2.AllAnnotations@2758fe70]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-09-04T13:14:44 EDT" finished-at="2020-09-04T13:14:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.syntax.class2.AllAnnotations@2758fe70]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-09-04T13:14:44 EDT" finished-at="2020-09-04T13:14:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.syntax.class2.AllAnnotations@2758fe70]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-09-04T13:14:44 EDT" finished-at="2020-09-04T13:14:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.syntax.class2.AllAnnotations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
